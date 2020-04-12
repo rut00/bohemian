@@ -1,0 +1,317 @@
+@font-face {
+	font-family: "Amatic SC";
+	src: url(AmaticSC.ttf);
+}
+@font-face {
+	font-family: "Comfortaa";
+	src: url(Comfortaa.ttf);
+}
+@font-face {
+	font-family: "Raleway";
+	src: url(Raleway.ttf);
+}
+@font-face {
+	font-family: "Comic Neue";
+	src: url(ComicNeue.ttf);
+}
+
+*{
+	list-style-type: none;
+	margin: 0;
+	text-decoration: none;
+}
+
+.header {
+	height: 65px;
+	background-color: rgba(38,40,43,0.72);
+	position: sticky;
+	top:0;
+	color: #fff;
+}
+
+.logo {
+	padding: 0px 37px;
+	float: left;
+	font-family: "Amatic SC";
+	font-weight: bold;
+}
+
+a{
+	color: white;
+}
+
+a:hover{
+	color: #e65f78;
+	opacity: 1;
+}
+
+.header-list li {
+	float: right;
+	padding: 17px 27px;
+	font-family: "Comfortaa";
+}
+
+.main {
+	background-image: url(kp.jpg);
+	opacity: 0.7;
+	background-size: 100% 660px;
+	background-repeat: no-repeat;
+	/*height: 1000px;*/
+}
+
+.main h1{
+	font-size: 38px;
+	position: absolute;
+	top: 290px;
+	left: 14.5em;
+	opacity: 1;
+	letter-spacing: 3px;
+	text-align: center;
+	font-family: "Raleway";
+	justify-content: center;
+	color: rgba(255,255,255,1) !important;
+}
+
+.main h3{
+	position: absolute;
+	top: 400px;
+	left: 19em;
+	font-family: "Comfortaa";
+	text-align: center;
+	line-height: 1.8em;
+	letter-spacing: 2px;
+	font-weight: lighter;
+	justify-content: center;
+	color: rgba(255,255,255,0.75);
+}
+
+.copy-container {
+	width: 98vw;
+	height: 80vh;
+	display: flex;
+	align-items: center;
+	font-family: "Raleway";
+	justify-content: center;
+}
+
+.slider-wrapper {
+	font-size: 40px;
+	color: #fff;
+	font-weight: bold;
+	opacity: 1;
+	text-transform: uppercase;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.slider {
+	height: 50px;
+	padding-left: 15px;
+	overflow: hidden;
+}
+
+.slider div{
+	color: #fff;
+	height: 50px;
+	margin-bottom: 50px;
+	padding: 2px 15px;
+	text-align: center;
+	box-sizing: border-box;
+}
+.slider-text1 {
+  /*background: purple;*/
+  animation: slide 6s linear infinite;
+}
+/*.slider-text2 {
+  background: skyblue;
+}
+.slider-text3 {
+  background: lightcoral;
+}
+.slider-text4 {
+  background: yellow;
+  text-transform: uppercase;
+}*/
+@keyframes slide {
+  0% {
+    margin-top: -400px;
+  }
+  5% {
+    margin-top: -300px;
+  }
+  26% {
+    margin-top: -300px;
+  }
+  31% {
+    margin-top: -200px;
+  }
+  52% {
+    margin-top: -200px;
+  }
+  57% {
+    margin-top: -100px;
+  }
+  78%{
+    margin-top: -100px;
+  }
+  83%{
+    margin-top: 0px;
+  }
+  100% {
+    margin-top: 0px;
+  }
+}
+
+.aboutme {
+	background-color: #2e3135;
+	color: #A0A0AC;
+}
+
+.dp img {
+	height: 450px;
+	width: 460px;
+	/*border-style: 5px groove black;*/
+	box-shadow: 5px 5px 50px #888888;
+	margin: 130px 100px 60px 60px;
+	float: left;
+}
+
+.headings h3 {
+	font-family: "Raleway";
+	font-size: 3em;
+	font-weight: bold;
+	padding: 110px 0px 10px 0px;
+}
+
+.headings h4 {
+	font-size: 1.6em;
+	padding: 10px 0;
+	font-family: "Raleway";
+}
+
+.headings span {
+	color: #e65f78;
+}
+
+.para {
+	font-size: 1.1em;
+	line-height: 1.5em;
+	text-align: justify;
+	margin-right: 40px;
+	padding-bottom: 120px;
+	font-family: "Comfortaa"
+}
+
+.fa {
+	margin: 0.7em 15px 0 0;
+}
+
+.para>div>a{
+	color: #A0A0AC;
+}
+
+.para>div>a:hover{
+	color: #e65f78;
+}
+
+.flex-container {
+	display: flex;
+	flex-wrap: wrap;
+	margin: 100px 100px 0 100px; 
+}
+
+.flex-container > div {
+	margin: 10px;
+	flex-grow: 1;
+}
+
+.flex-container >div >img {
+	height: 200px;
+	width: 350px;
+}
+
+.portfolio-container {
+	background-color: #2e3135;
+	text-align: center;
+	color: #A0A0AC
+}
+
+.portfolio-container h2{
+	font-family: "Raleway";
+	font-size: 3em;
+	font-weight: bold;
+	text-align: center;
+}
+
+.portfolio-container h3{
+	font-family: "Comfortaa";
+	font-size: 1.1em;
+	font-weight: bold;
+	text-align: center;	
+	line-height: 1.8em;
+	letter-spacing: 2px;
+	font-weight: lighter;
+	justify-content: center;
+}
+
+footer {
+	background-color: #242529;
+	text-align: center;
+	color: #A0A0AC;
+	padding: 50px 0 50px 0;
+}
+
+/*<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+.container {
+  position: relative;
+  width: 50%;
+}
+
+.image {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.overlay {
+  position: absolute;
+  top: 100px;
+  left: 100px;
+  overflow: visible;
+  width: 100%;
+  height: 100%;
+  transform: scale(0);
+}
+
+.container:hover .overlay {
+  transform: scale(1);
+}
+
+.text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+</style>
+</head>
+<body>
+
+<h2>Image Hover Fullscreen Zoom</h2>
+<p>Hover over the image to see the zoom effect.</p>
+
+<div class="container">
+  <img src="img_avatar.png" alt="Avatar" class="image">
+  <div class="overlay">
+    <div class="text">  <img src="img_avatar.png" alt="Avatar">
+</div>
+  </div>
+</div>
+
+</body>
+</html>*/
